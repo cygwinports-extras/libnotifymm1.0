@@ -1,0 +1,4 @@
+category: Gnome
+requires: cygwin glib2 glibmm24 libnotify libsigc++20
+sdesc: "C++ bindings for libnotify (runtime)"
+ldesc: "C++ bindings for the libnotify desktop notification library."
