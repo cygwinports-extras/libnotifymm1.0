@@ -1,4 +1,4 @@
-libnotifymm
+libnotifymm10
 ------------------------------------------
 C++ bindings for the libnotify desktop notification library.
 
@@ -33,47 +33,51 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libnotifymm-0.4.0-X-src.tar.bz2
+  unpack libnotifymm10-0.6.0-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libnotifymm-0.4.0-X.cygport all
+  cygport ./libnotifymm10-0.6.0-X.cygport all
 
 This will create:
-  /usr/src/libnotifymm-0.4.0-X-src.tar.bz2
-  /usr/src/libnotifymm-0.4.0-X.tar.bz2
-  /usr/src/libnotifymm-devel-0.4.0-X.tar.bz2
+  /usr/src/libnotifymm10-0.6.0-X-src.tar.bz2
+  /usr/src/libnotifymm10-0.6.0-X.tar.bz2
+  /usr/src/libnotifymm10-devel-0.6.0-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary packages:
 
-(libnotifymm)
-  /usr/bin/cygnotifymm-7.dll
-  /usr/share/doc/Cygwin/libnotifymm-0.4.0.README
-  /usr/share/doc/libnotifymm-0.4.0/AUTHORS
-  /usr/share/doc/libnotifymm-0.4.0/COPYING
-  /usr/share/doc/libnotifymm-0.4.0/ChangeLog
-  /usr/share/doc/libnotifymm-0.4.0/INSTALL
-  /usr/share/doc/libnotifymm-0.4.0/README
+(libnotifymm10)
+  /usr/bin/cygnotifymm-1.0-7.dll
+  /usr/share/doc/Cygwin/libnotifymm10-0.6.0.README
+  /usr/share/doc/libnotifymm10-0.6.0/AUTHORS
+  /usr/share/doc/libnotifymm10-0.6.0/COPYING
+  /usr/share/doc/libnotifymm10-0.6.0/ChangeLog
+  /usr/share/doc/libnotifymm10-0.6.0/INSTALL
+  /usr/share/doc/libnotifymm10-0.6.0/NEWS
+  /usr/share/doc/libnotifymm10-0.6.0/README
 
-(libnotifymm-devel)
-  /usr/include/libnotifymm/libnotifymm.h
-  /usr/include/libnotifymm/libnotifymm/init.h
-  /usr/include/libnotifymm/libnotifymm/notification.h
-  /usr/include/libnotifymm/libnotifymm/notify.h
-  /usr/include/libnotifymm/libnotifymm/private/notification_p.h
-  /usr/include/libnotifymm/libnotifymm/wrap_init.h
-  /usr/lib/libnotifymm.dll.a
-  /usr/lib/libnotifymm.la
-  /usr/lib/libnotifymm/include/libnotifymmconfig.h
-  /usr/lib/libnotifymm/proc/m4/convert.m4
-  /usr/lib/libnotifymm/proc/m4/convert_libnotifymm.m4
-  /usr/lib/pkgconfig/libnotifymm.pc
+(libnotifymm10-devel)
+  /usr/include/libnotifymm-1.0/libnotifymm.h
+  /usr/include/libnotifymm-1.0/libnotifymm/init.h
+  /usr/include/libnotifymm-1.0/libnotifymm/notification.h
+  /usr/include/libnotifymm-1.0/libnotifymm/notify.h
+  /usr/include/libnotifymm-1.0/libnotifymm/private/notification_p.h
+  /usr/include/libnotifymm-1.0/libnotifymm/wrap_init.h
+  /usr/lib/libnotifymm-1.0.dll.a
+  /usr/lib/libnotifymm-1.0.la
+  /usr/lib/libnotifymm-1.0/include/libnotifymmconfig.h
+  /usr/lib/libnotifymm-1.0/proc/m4/convert.m4
+  /usr/lib/libnotifymm-1.0/proc/m4/convert_libnotifymm.m4
+  /usr/lib/pkgconfig/libnotifymm-1.0.pc
 
 ------------------
 
 Port Notes:
+
+----- version 0.6.0-1 -----
+Version bump.  Library slotted -1.0 upstream.
 
 ----- version 0.4.0-1 -----
 Initial release for Cygwin.
