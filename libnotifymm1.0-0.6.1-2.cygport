@@ -1,0 +1,5 @@
+inherit gtkmm
+
+PKG_NAMES="${PN} ${PN}_7 ${PN}-devel"
+libnotifymm1_0_7_CONTENTS='usr/bin/*-1.0-7.dll usr/share/'
+libnotifymm1_0_devel_CONTENTS='usr/include/ usr/lib/'

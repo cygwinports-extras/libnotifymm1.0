@@ -1,26 +1,26 @@
-libnotifymm10
+libnotifymm1.0
 ------------------------------------------
 C++ bindings for the libnotify desktop notification library.
 
 Runtime requirements:
-  cygwin-1.5.25-7
-  glib2-2.14.6-1
-  glibmm24-2.14.2-1
-  libnotify-0.4.4-1
-  libsigc++20-2.1.1-1
+  cygwin-1.5.25-15
+  libglib2.0_0-2.18.3-1
+  libglibmm2.4_1-2.18.1-1
+  libnotify1-0.4.5-1
+  libsigc2.0_0-2.2.3-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  autoconf2.5-2.61-1
-  automake1.10-1.10-1
-  binutils-20060817-1
-  cygport-0.3.8-1
+  autoconf2.5-2.63-1
+  automake1.10-1.10.1-2
+  binutils-20080624-2
+  cygport-0.4.3-1
   gawk-3.1.6-1
   gcc-core-3.4.4-3
   gcc-g++-3.4.4-3
-  libtool1.5-1.5.23a-2
+  libtool-2.2.6a-1
   make-3.81-1
-  pkg-config-0.21-1
+  pkg-config-0.23a-2
   sed-4.1.5-2
 
 Canonical website:
@@ -32,32 +32,31 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libnotifymm10-0.6.1-X-src.tar.bz2
+  unpack libnotifymm1.0-0.6.1-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libnotifymm10-0.6.1-X.cygport all
+  cygport ./libnotifymm1.0-0.6.1-X.cygport all
 
 This will create:
-  /usr/src/libnotifymm10-0.6.1-X-src.tar.bz2
-  /usr/src/libnotifymm10-0.6.1-X.tar.bz2
-  /usr/src/libnotifymm10-devel-0.6.1-X.tar.bz2
+  /usr/src/libnotifymm1.0-0.6.1-X-src.tar.bz2
+  /usr/src/libnotifymm1.0-devel-0.6.1-X.tar.bz2
+  /usr/src/libnotifymm1.0_7-0.6.1-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary packages:
 
-(libnotifymm10)
+(libnotifymm1.0_7)
   /usr/bin/cygnotifymm-1.0-7.dll
-  /usr/share/doc/Cygwin/libnotifymm10-0.6.1.README
-  /usr/share/doc/libnotifymm10-0.6.1/AUTHORS
-  /usr/share/doc/libnotifymm10-0.6.1/COPYING
-  /usr/share/doc/libnotifymm10-0.6.1/ChangeLog
-  /usr/share/doc/libnotifymm10-0.6.1/INSTALL
-  /usr/share/doc/libnotifymm10-0.6.1/NEWS
-  /usr/share/doc/libnotifymm10-0.6.1/README
+  /usr/share/doc/libnotifymm1.0-0.6.1/AUTHORS
+  /usr/share/doc/libnotifymm1.0-0.6.1/COPYING
+  /usr/share/doc/libnotifymm1.0-0.6.1/ChangeLog
+  /usr/share/doc/libnotifymm1.0-0.6.1/INSTALL
+  /usr/share/doc/libnotifymm1.0-0.6.1/NEWS
+  /usr/share/doc/libnotifymm1.0-0.6.1/README
 
-(libnotifymm10-devel)
+(libnotifymm1.0-devel)
   /usr/include/libnotifymm-1.0/libnotifymm.h
   /usr/include/libnotifymm-1.0/libnotifymm/init.h
   /usr/include/libnotifymm-1.0/libnotifymm/notification.h
@@ -74,6 +73,9 @@ Files included in the binary packages:
 ------------------
 
 Port Notes:
+
+----- version 0.6.1-2 -----
+Rebuilt.
 
 ----- version 0.6.1-1 -----
 Version bump.

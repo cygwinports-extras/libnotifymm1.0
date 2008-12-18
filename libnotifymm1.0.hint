@@ -1,0 +1,3 @@
+category: Gnome
+sdesc: "C++ bindings for libnotify (sources)"
+ldesc: "C++ bindings for the libnotify desktop notification library."
