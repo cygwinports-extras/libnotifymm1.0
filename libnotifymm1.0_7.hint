@@ -1,5 +1,5 @@
 category: Gnome
-requires: cygwin libglib2.0_0 libglibmm2.4_1 libnotify1 libsigc2.0_0
+requires: libglib2.0_0 libglibmm2.4_1 libnotify1 libsigc2.0_0
 external-source: libnotifymm1.0
 sdesc: "C++ bindings for libnotify (runtime)"
 ldesc: "C++ bindings for the libnotify desktop notification library."
